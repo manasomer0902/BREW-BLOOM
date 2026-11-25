@@ -1,0 +1,135 @@
+
+.reservation-cta {
+  position: relative;
+  min-height: 560px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+
+.reservation-cta-background {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2200&q=85');
+  background-position: center;
+  background-size: cover;
+  transform: scale(1.02);
+}
+
+.reservation-cta-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(15, 10, 7, 0.94),
+      rgba(15, 10, 7, 0.68),
+      rgba(15, 10, 7, 0.94)
+    ),
+    linear-gradient(
+      0deg,
+      rgba(15, 10, 7, 0.65),
+      transparent,
+      rgba(15, 10, 7, 0.65)
+    );
+}
+
+.reservation-cta-content {
+  position: relative;
+  z-index: 2;
+  width: min(800px, calc(100% - 40px));
+  margin: auto;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.reservation-cta-eyebrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 25px;
+  color: var(--gold-light);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.reservation-cta-eyebrow span {
+  width: 32px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.reservation-cta-content h2 {
+  color: #fff8ef;
+  font-size: clamp(3rem, 6vw, 5.3rem);
+  line-height: 1.12;
+}
+
+.reservation-cta-content h2 em {
+  color: var(--gold-light);
+  font-weight: 400;
+}
+
+.reservation-cta-content > p {
+  max-width: 570px;
+  margin: 24px auto 32px;
+  color: rgba(245, 238, 229, 0.78);
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+
+.reservation-cta-button {
+  min-height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 25px;
+  color: #1b120b;
+  background: linear-gradient(135deg, #e0c38d, #b99560);
+  border: 1px solid var(--gold-light);
+  box-shadow: 0 10px 35px rgba(185, 149, 96, 0.22);
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.reservation-cta-button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(185, 149, 96, 0.35);
+}
+
+.reservation-cta-note {
+  display: block;
+  margin-top: 38px;
+  color: rgba(245, 238, 229, 0.58);
+  font-size: 0.59rem;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 760px) {
+  .reservation-cta {
+    min-height: 500px;
+  }
+
+  .reservation-cta-content {
+    padding: 75px 0;
+  }
+
+  .reservation-cta-content h2 {
+    font-size: clamp(2.7rem, 11vw, 4rem);
+  }
+
+  .reservation-cta-content > p {
+    font-size: 0.84rem;
+  }
+
+  .reservation-cta-note {
+    font-size: 0.48rem;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+}
