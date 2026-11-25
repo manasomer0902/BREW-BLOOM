@@ -10,7 +10,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 import Hero from './components/Hero';
 import WelcomeSection from './components/WelcomeSection';
 import SignatureDishes from './components/SignatureDishes';
-import MenuCategories from './components/Menucategories';
+import MenuCategories from './components/MenuCategories';
 import Testimonials from './components/Testimonials';
 import GalleryPreview from './components/GalleryPreview';
 import ReservationCTA from './components/ReservationCTA';
