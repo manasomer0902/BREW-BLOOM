@@ -1,16 +1,143 @@
-# React + Vite
+# BREW & BLOOM ☕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Where Every Bite Becomes a Memory.
 
-Currently, two official plugins are available:
+A premium, modern restaurant and café website built with React. BREW & BLOOM combines an elegant dark aesthetic, immersive food photography, interactive menu browsing, and convenient reservation and contact experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**🌐 Live Demo:** https://brew-bloom-sage.vercel.app/
 
-## React Compiler
+**📦 GitHub Repository:** https://github.com/manasomer0902/BREW-BLOOM
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Home Page
+![Home Page](screenshots/home-page.png)
+
+### Menu Page
+![Menu Page](screenshots/menu-page.png)
+
+### About Page
+![About Page](screenshots/about-page.png)
+
+### Gallery
+![Gallery](screenshots/gallery-page.png)
+
+### Reservations
+![Reservations](screenshots/reservation-page.png)
+
+### Contact
+![Contact](screenshots/contact-page.png)
+
+### Contact Form
+![Contact Form](screenshots/contact-form.png)
+
+### Location
+![Location](screenshots/location-section.png)
+
+---
+
+## ✨ Features
+
+- Premium dark-themed restaurant design
+- Fully responsive layout
+- Interactive menu featuring 100 food and beverage items
+- Menu search and category filters
+- Individual food images
+- Restaurant story and gallery pages
+- Reservation request form with WhatsApp integration
+- Contact form with WhatsApp integration
+- Google Maps location embed
+- Business information and opening hours
+- WhatsApp floating button
+- React Router navigation
+- Custom 404 page
+- SEO metadata
+- Smooth scrolling and interactive UI elements
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- React Router DOM
+- Lucide React
+- Google Maps Embed
+- WhatsApp Integration
+- Vercel
+
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/manasomer0902/BREW-BLOOM.git
+```
+
+Navigate into the project:
+
+```bash
+cd BREW-BLOOM
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## 📁 Project Structure
+
+```text
+BREW-BLOOM/
+├── public/
+├── screenshots/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## 🎨 Design Direction
+
+The website follows a premium restaurant aesthetic with:
+
+- Deep espresso and charcoal backgrounds
+- Champagne gold accents
+- Elegant serif typography
+- Glossy surfaces and subtle glass effects
+- High-quality food and restaurant photography
+
+## 📍 Project Information
+
+**Project:** BREW & BLOOM  
+**Category:** Restaurant & Café Website  
+**Location:** Connaught Place, New Delhi, India
+
+---
+
+*Created with care and passion.*
